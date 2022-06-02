@@ -1,45 +1,40 @@
-body
-{
+body {
     margin: 0;
     background-color: #0B090A;
     background-image: url("https://images4.fanpop.com/image/photos/20800000/kiro-sift-heads-world-act-club-2-20880470-1280-960.jpg");
     background-size: cover;
 }
 
-.navbar-brand, .nav-link
-{
+.navbar-brand,
+.nav-link {
     cursor: pointer;
     padding: 0 10px;
 }
 
-.nav-link
-{
+.nav-link {
     margin-right: 1em !important;
 }
 
-.navbar-collapse
-{
+.navbar-collapse {
     justify-content: flex-end;
 }
 
-header
-{
+header {
     text-align: center;
 }
 
-h1
-{
+h1, h2 {
     color: #F5F3F4;
+    cursor: pointer;
 }
 
-.description
-{
-	/* left: 50%; */
-	/* position: absolute; */
-	/* top: 45%; */
-	/* transform: translate(-50%, -55%); */
+.description {
+    /* left: 50%; */
+    /* position: absolute; */
+    /* top: 45%; */
+    /* transform: translate(-50%, -55%); */
     padding: 60px;
-	text-align: center;
+    text-align: center;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -49,32 +44,29 @@ h1
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
-     }
+    }
 }
 
-.description h1 
-{
-	color: #BA181B;
+.description h1 {
+    color: #BA181B;
 }
 
-.description p 
-{
-	color: #D3D3D3;
-	font-size: 1.3rem;
-	line-height: 1.5;
+.description p {
+    color: #D3D3D3;
+    font-size: 1.3rem;
+    line-height: 1.5;
 }
 
-.page-footer
-{
+.page-footer {
     background-color: #222;
     color: #ccc;
     padding: 20px 0px;
 }
 
-.footer-copyright
-{
+.footer-copyright {
     color: #666;
     padding: 20px 0;
 }
